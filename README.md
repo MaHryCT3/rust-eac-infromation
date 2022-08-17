@@ -12,8 +12,6 @@ from eac_info import get_eac_info
 
 async def foo():
     return await get_eac_info(76561198256263906)
-
-eac = foo()
 ```
 
 Sync method
