@@ -1,8 +1,19 @@
 [tool.poetry]
 name = "rust-eac-information"
 version = "0.1.0"
-description = ""
+description = "Get infromation about eac banned players in rust"
 authors = ["MaHryCT3 <mahryct123@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MaHryCT3/rust-eac-infromation"
+repository = "https://github.com/MaHryCT3/rust-eac-infromation"
+keywords = ["eac", "rust", "python"]
+include = [
+    "LICENSE",
+]
+packages = [
+    {include = "eac_info"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

@@ -4,8 +4,8 @@ from typing import Optional, TypeAlias, Mapping
 import aiohttp
 from bs4 import BeautifulSoup as BS
 
-from model import EACInfo
-from exceptions import CantGetEacInfo, SteamIsNotFound
+from eac_info.model import EACInfo
+from eac_info.exceptions import CantGetEacInfo, SteamIsNotFound
 
 __all__ = ["get_eac_info"]
 
