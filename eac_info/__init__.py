@@ -1,1 +1,3 @@
-__version__ = '0.1.0'
+from get_eac_info import *
+
+__version__ = "0.1.0"
