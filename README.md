@@ -38,5 +38,5 @@ eac.nexus_link  # https://www.nexusonline.co.uk/bans/profile/?id=765611982562639
 # About
 This script works with [nexus](https://www.nexusonline.co.uk/bans/) and simply converts the information into python objects. If the site does not work, then the script will stop functioning.
 
-The author has nothing to do with the [nexus](https://www.nexusonline.co.uk/bans/)
+The author has nothing to do with the [nexus](https://www.nexusonline.co.uk)
 
