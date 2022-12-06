@@ -19,7 +19,6 @@ packages = [
 python = "^3.10"
 aiohttp = "^3.8.1"
 beautifulsoup4 = "^4.11.1"
-lxml = "^4.9.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

@@ -35,7 +35,7 @@ async def _get_eac_soup(link: str, session: aiohttp.ClientSession) -> BS:
             text = await _get_request(link, session)
     else:
         text = await _get_request(link, session)
-    return BS(text, "lxml")
+    return BS(text, "html.parser")
 
 
 async def _get_request(link: str, session: aiohttp.ClientSession) -> ResponseText:
